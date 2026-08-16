@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "cam_batch"
+version = "1.0.0"
+name = "CamBatch"
+tagline = "Render still images from a custom list of cameras"
+maintainer = "Wentao Huang"
+type = "add-on"
+
+blender_version_min = "4.5.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = ["Render"]
+
+[permissions]
+files = "Save rendered images to the selected output folder"
